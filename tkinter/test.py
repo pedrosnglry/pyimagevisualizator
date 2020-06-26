@@ -55,4 +55,6 @@ class Window(tk.Frame):
 app = Window(root)
 root.wm_title(nome)
 root.geometry(f"{largura}x{altura+widget_bar_height}")
+print("iniciando")
 root.mainloop()
+print('fechando')
